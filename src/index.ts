@@ -1,5 +1,5 @@
 import {app, BrowserWindow} from 'electron';
-import {createMainWindow} from './renderer/main/createMainWindow';
+import {createMainWindow} from './renderer/main_window/createMainWindow';
 
 declare const MAIN_WINDOW_WEBPACK_ENTRY: any;
 

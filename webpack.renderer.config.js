@@ -5,7 +5,7 @@ const plugins = require('./webpack.plugins');
 const CopyPlugin = require("copy-webpack-plugin");
 
 const ASSETS = {
-    dir: 'src',
+    dir: 'src/renderer',
     to: '.webpack/renderer',
     assets: [
         'dock'
