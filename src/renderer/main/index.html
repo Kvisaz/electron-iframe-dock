@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
-    <link rel="stylesheet" href="../assets/css/static.css">
-  </head>
-  <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
-   <textarea style="width: 100%; height: 400px">Type here</textarea>
-  </body>
+    <style>
+        html, body, iframe {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+       iframe {
+         border: none;
+       }
+    </style>
+</head>
+<body>
+<iframe id="dock" src="/dock/index.html"></iframe>
+</body>
 </html>

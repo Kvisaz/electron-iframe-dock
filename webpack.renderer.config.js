@@ -5,10 +5,10 @@ const plugins = require('./webpack.plugins');
 const CopyPlugin = require("copy-webpack-plugin");
 
 const ASSETS = {
-    dir: 'src/renderer/assets',
-    to: '.webpack/renderer/assets',
+    dir: 'src',
+    to: '.webpack/renderer',
     assets: [
-        'img', 'css', 'font', 'sound'
+        'dock'
     ]
 }
 const copyData = ASSETS.assets.map(asset => {
