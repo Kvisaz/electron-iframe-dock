@@ -11,9 +11,11 @@ How to do:
 
 ## How it works?
 
-Electron application get your HTML5-page in borderless iframe.
+Your HTML app run in borderless iframe inside Electron application.
 
 You can connect Electron host and your page through window.postMessage API
+
+![Electron application get your HTML5-page in borderless iframe](dock.png)
 
 ## Why?
 
