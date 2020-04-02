@@ -5,6 +5,8 @@ Rapid Electron development for  HTML5 apps.
 How to do:
 - clone this repository
 - drop your ready (compiled) HTML5-app in `src/dock` folder (use index.html)
+
+Then use standard NPM scripts in terminal
 - `npm install`
 - `npm run start` for test
 - `npm rum make` for build Electron application
