@@ -22,16 +22,10 @@
       "packagerConfig": {},
       "makers": [
         {
-          "name": "@electron-forge/maker-squirrel",
-          "config": {
-            "name": "electron_text_editor"
-          }
-        },
-        {
           "name": "@electron-forge/maker-zip",
-          "platforms": [
-            "darwin"
-          ]
+          "config": {
+            "name": "electronDock"
+          }
         },
         {
           "name": "@electron-forge/maker-deb",
