@@ -26,3 +26,9 @@ You can develop Electron host application and your HTML5-app as independent proj
 You can fast switch your app in dock for any other project.
 
 HTML5-app in 'dock' is completely isolated from Node/Electron.
+
+## Changelog
+
+- 2020-04-20 
+    - `npm run make` generate zip instead installer,
+    - `dock` folder instead `src/dock`
