@@ -4,20 +4,10 @@ const plugins = require('./webpack.plugins');
 
 const CopyPlugin = require("copy-webpack-plugin");
 
-const ASSETS = {
-    dir: 'src/renderer',
-    to: '.webpack/renderer',
-    assets: [
-        'dock'
-    ]
-}
-const copyData = ASSETS.assets.map(asset => {
-    return {
-        from: path.resolve(__dirname, ASSETS.dir, asset),
-        to: path.resolve(__dirname, ASSETS.to, asset)
-    }
-})
-const copyAssetPlugin = new CopyPlugin(copyData);
+const copyAssetPlugin = new CopyPlugin([{
+    from: path.resolve(__dirname, 'dock'),
+    to: path.resolve(__dirname, '.webpack/renderer/dock')
+}]);
 
 rules.push({
     test: /\.css$/,

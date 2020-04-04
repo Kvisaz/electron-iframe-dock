@@ -1,6 +1,6 @@
 {
-  "name": "electron-text-editor",
-  "productName": "electron-text-editor",
+  "name": "electron-dock",
+  "productName": "electron-dock",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": ".webpack/main",
