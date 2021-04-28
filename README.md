@@ -9,7 +9,7 @@ How to do:
 Then use standard NPM scripts in terminal
 - `npm install`
 - `npm run start` for test
-- `npm rum make` for build Electron application
+- `npm run make` for build Electron application
 
 ## How it works?
 
